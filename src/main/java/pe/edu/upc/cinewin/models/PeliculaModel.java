@@ -24,6 +24,7 @@ public class PeliculaModel {
     @NotBlank
     private String nombre;
     @NotBlank
+    @Column(length = 2000)
     private String descripcion;
     private Integer rating;
     @NotNull
